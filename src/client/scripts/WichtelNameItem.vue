@@ -11,7 +11,7 @@ export default {
   data () {
     return {
       name: 'David Brieden'
-    }
+    };
   }
 }
 </script>
