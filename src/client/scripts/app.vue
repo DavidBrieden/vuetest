@@ -19,7 +19,8 @@
 </template>
 
 <script>
-const WichtelNameItem = require('./WichtelNameItem.vue');
+import WichtelNameItem from './WichtelNameItem.vue'
+
 export default {
   data() {
     return {

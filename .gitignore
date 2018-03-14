@@ -1,5 +1,5 @@
 # build
-src/client/wwwroot/app.js
+src/client/wwwroot/bundle.js
 
 # Logs
 logs
