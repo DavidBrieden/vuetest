@@ -13,8 +13,7 @@
 
 <template>
 <div class="app-container">
-  <WichtelNameItem name="Dave"></WichtelNameItem>
-  <WichtelNameItem name="Freddy"></WichtelNameItem>
+  <WichtelNameItem v-for="name in names" :name="name"></WichtelNameItem>
 </div>
 </template>
 
@@ -24,7 +23,8 @@ import WichtelNameItem from './WichtelNameItem.vue'
 export default {
   data() {
     return {
-      msg: 'Hello world!'
+      msg: 'Hello world!',
+      names: ['David', 'Frederik', 'Peter', 'Donatello']
     }
   },
   components: {

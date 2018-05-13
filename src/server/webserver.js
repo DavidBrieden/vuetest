@@ -10,6 +10,4 @@ var start = function() {
   });
 };
 
-module.exports = {
-  start: start
-}
+start();
